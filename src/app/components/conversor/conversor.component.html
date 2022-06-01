@@ -1,0 +1,5 @@
+<input class="grid" type="text" pInputText [(ngModel)]="temperatura">
+<p-dropdown  [options]="escalas" [(ngModel)]="escalaSelecionada" placeholder="Temperatura em" optionLabel="name" [showClear]="true"></p-dropdown>
+<button pButton pRipple (click)="test()" type="button" icon="pi pi-chevron-right" class="p-button-rounded p-button-info"></button>
+<p-dropdown  [options]="escalas" [(ngModel)]="escalaparaconverter" placeholder="converter para" optionLabel="name" [showClear]="true"></p-dropdown>
+<input id="disabled-input" type="text" pInputText [disabled]="true" [(ngModel)]="resultado" />
