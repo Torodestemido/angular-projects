@@ -25,12 +25,13 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
 
       this.items = [
-          {label: 'Home', icon: 'pi pi-fw pi-home', command: (event)=>{this.openPage(event.item)}},
-          {label: 'Calendar', icon: 'pi pi-fw pi-calendar', command: (event)=>{this.openPage(event.item)}},
-          {label: 'Edit', icon: 'pi pi-fw pi-pencil', command: (event)=>{this.openPage(event.item)}},
-          {label: 'Documentation', icon: 'pi pi-fw pi-file', command: (event)=>{this.openPage(event.item)}},
-          {label: 'Settings', icon: 'pi pi-fw pi-cog', command: (event)=>{this.openPage(event.item)}},
-          {label: 'Conversor', icon: 'pi pi-fw pi-cog', command: (event)=>{this.openPage(event.item)}}
+          {label: 'ㅤ ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          {label: 'Conversor', icon: 'pi pi-angle-double-right', command: (event)=>{this.openPage(event.item)}},
+          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          {label:  'ㅤ', icon: '', command: (event)=>{this.openPage(event.item)}}
       ];
 
       this.activeItem = this.items[0];
