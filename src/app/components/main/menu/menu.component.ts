@@ -21,17 +21,18 @@ export class MenuComponent implements OnInit {
     this.router.navigate(['/' + rota.label])
 
   }
+  
 
   ngOnInit() {
 
       this.items = [
-          {label: 'ㅤ ', icon: '', command: (event)=>{this.openPage(event.item)}},
-          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
-          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          // {label: 'ㅤ ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          // {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          // {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
           {label: 'Conversor', icon: 'pi pi-angle-double-right', command: (event)=>{this.openPage(event.item)}},
-          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
-          {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
-          {label:  'ㅤ', icon: '', command: (event)=>{this.openPage(event.item)}}
+          // {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          // {label: 'ㅤㅤㅤㅤㅤ', icon: '', command: (event)=>{this.openPage(event.item)}},
+          // {label:  'ㅤ', icon: '', command: (event)=>{this.openPage(event.item)}}
       ];
 
       this.activeItem = this.items[0];
