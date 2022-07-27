@@ -3,12 +3,12 @@
 <h1 class="mt-3 flex justify-content-center ">Conversor-de-Temperatura</h1>
 
 <div class="mt-3 flex justify-content-center card-container">
-  
+
   <input  class="w-1 inline-block h-4rem  text-gray font-bold text-center p-4 border-round" type="number" pInputText [(ngModel)]="temperatura">
 
   <p-dropdown class="inline-block h-4rem  text-white font-bold text-center p-4 border-round" [options]="escalas" [(ngModel)]="escalaSelecionada" placeholder="Temperatura em" optionLabel="name" [showClear]="true"></p-dropdown>
 
-  <button  pButton pRipple (click)="resolver()" type="button" icon="pi pi-chevron-right" class="mt-3 text-white font-bold text-center p-4 border-round p-button-rounded p-button-info"></button>
+  <button  pButton pRipple (click)="resolver()" type="button"  class="mt-3 text-white font-bold text-center p-4 border-round p-button-rounded p-button-info">Converter</button>
 
   <p-dropdown class="inline-block h-4rem  text-white font-bold text-center p-4 border-round"   [options]="escalas" [(ngModel)]="escalaparaconverter" placeholder="converter para" optionLabel="name" [showClear]="true"></p-dropdown>
 

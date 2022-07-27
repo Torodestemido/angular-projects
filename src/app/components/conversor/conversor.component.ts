@@ -34,7 +34,6 @@ export class ConversorComponent implements OnInit {
   }
 
   resolver(){
-    
 
     // console.log(this.resultado,this.temperatura,this.escalaSelecionada,this.escalaparaconverter);
     // console.log(this.temperatura)
